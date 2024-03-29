@@ -1,0 +1,1128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+#main{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    background-color: rgb(17, 20, 20);
+    background:linear-gradient(to bottom,#2b4cdb 50%,grey 50%)
+    
+}
+#page1{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    background-color: black;
+    left: 5%;
+    top: 8%;
+    box-shadow: 5px 20px 20px 5px black;
+}
+#page1 img{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    top: 20%;
+    left: 5%;
+    z-index: 999;
+    
+}
+#page1 h1{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 5%;
+    font-size: 110px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#page1 h1::after{
+    position: absolute;
+    content: "";
+    background-color: rgb(251, 248, 248);
+    width: 25%;
+    height: 1%;
+    top: 170%;
+    right: -1%;
+
+}
+#btn1{
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 5700;
+}
+#btn1::after{
+    position: absolute;
+    content: "";
+    background-color: rgb(251, 248, 248);
+    width: 25%;
+    height: 2%;
+    top: -270%;
+    left: -270%;
+}
+#page1 h5{
+    position: absolute;
+    color: white;
+    top: 55%;
+    right: 10%;
+}
+#page1 h5::after{
+    position: absolute;
+    content: "";
+    background-color: #f3eeee;
+    width: 30%;
+    height: 2px;
+    top: 55%;
+    right: 120%;
+}
+#right{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    top: 55%;
+    left: 91%;
+    font-size: 20px;
+}
+#arrow{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    /* background-color: red; */
+}
+#right1{ 
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    color: white;
+    top: 30%;
+    left: 930%;
+    font-size: 50px;
+    background-color: #2b4cdb;
+}
+#right2{
+    position: absolute;
+    color: white;
+    width: 45%;
+    height: 45%;
+    top: 20px;
+    left: 870%;
+    bottom: -10%;
+    font-size: 50px;
+    background-color: #2b4cdb;
+    
+}
+button{
+    padding: 5px 15px;
+    font-size: 1.5vw;
+    width: fit-content;
+    font-family: gilroy;
+    background-color: rgba(63, 63, 251, 0.556);
+    color: white;
+    font-weight:500;
+    border: none;
+    border-bottom: 1px solid rgb(251, 248, 248);
+    border-left: 1px solid rgb(246, 243, 243);
+    position: relative;
+    top: -18%;
+    left: 50%;
+}
+button::after{
+    content: "";
+    position: absolute;
+    height: .5px;
+    width: 50%;
+    background-color: #fff;
+    left: 0%;
+    top: 0%;
+}
+#page1 h6{
+    position: absolute;
+    color: white;
+    top: -5%;
+    right: 3%;
+}
+#circle1{
+    position: relative;
+    width: 3%;
+    height: 5.5%;
+    background-color: rgb(246, 242, 242);
+    border-radius: 50%;
+    top: -23%;
+}
+#circle2{
+    position: relative;
+    width: 1%;
+    height: 1.5%;
+    background-color: rgb(246, 242, 242);
+    border-radius: 50%;
+    top: -26.5%;
+    left: 4%;
+}
+#circle3{
+    position: relative;
+    width: 1%;
+    height: 1.5%;
+    background-color: rgb(246, 242, 242);
+    border-radius: 50%;
+    top: -28%;
+    left: 6%;
+}
+#right3{
+    position: relative;
+    color: white;
+    left: 102%;
+    top: 15%;
+    font-size: 30px;
+}
+#right4{
+    position: relative;
+    color: white;
+    left: 99%;
+    top: 11.5%;
+    font-size: 30px;
+}
+#bcb{
+    position: relative;
+    width: 3px;
+    height: 15%;
+    background-color: rgb(242, 236, 236);
+    left: -3%;
+    top: -15%;
+}
+#bcb h1{
+    position: absolute;
+    font-size: 50px ;
+    color: rgb(246, 242, 242);
+    left: 20%;
+    top: 120%;
+}
+#bcb h2{
+    position: absolute;
+    font-size: 50px ;
+    color: rgb(246, 242, 242);
+    left: 20%;
+    top: 160%;
+}
+#bcb1{
+    position: relative;
+    width: 3px;
+    height: 15%;
+    background-color: rgb(242, 236, 236);
+    left: -3%;
+    top: 10%;
+}
+#bcb1 h1{
+    position: absolute;
+    font-size: 50px ;
+    color: rgb(246, 242, 242);
+    left: 20%;
+    top: 120%;
+}
+#bcb1 h2{
+    position: absolute;
+    font-size: 50px ;
+    color: rgb(246, 242, 242);
+    left: 20%;
+    top: 160%;
+}
+#bcb2{
+    position: relative;
+    width: 3px;
+    height: 15%;
+    background-color: rgb(242, 236, 236);
+    left: 103%;
+    top: -60%;
+}
+#bcb2 h1{
+    position: absolute;
+    font-size: 50px ;
+    color: rgb(246, 242, 242);
+    left: 20%;
+    top: 120%;
+}
+#bcb2 h2{
+    position: absolute;
+    font-size: 50px ;
+    color: rgb(246, 242, 242);
+    left: 20%;
+    top: 160%;
+}
+#bcb3{
+    position: relative;
+    width: 3px;
+    height: 15%;
+    background-color: rgb(242, 236, 236);
+    left: 103%;
+    top: -10%;
+}
+#bcb3 h1{
+    position: absolute;
+    font-size: 50px ;
+    color: rgb(246, 242, 242);
+    left: 20%;
+    top: 120%;
+}
+#bcb3 h2{
+    position: absolute;
+    font-size: 50px ;
+    color: rgb(246, 242, 242);
+    left: 20%;
+    top: 160%;
+}
+#page2{
+    position: relative;
+    width: 100%;
+    height: 150%;
+    background-color: rgba(249, 224, 224, 0.966);
+    top: 120%;
+}
+#h31{
+    position: relative;
+    left: 20%;
+    top: 5%;
+    color: blue;
+
+}
+#h31::after{
+    position: absolute;
+    content: "";
+    width: 3%;
+    height: 10%;
+    background-color: rgb(7, 7, 7);
+    left: 3%;
+    top: -10%;
+    
+
+}
+#h32{
+    position: relative;
+    left: 26%;
+    top: 2.8%;
+    color: rgb(8, 8, 9);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#h32::after{
+    position: absolute;
+    content: "";
+    width: 5%;
+    height: 10%;
+    background-color: rgb(7, 7, 7);
+    left: -1%;
+    top: 138%;
+
+}
+#page2 img{
+    position: relative;
+    width: 25%;
+    height: 30%;
+    left: 60%;
+    top: -8%;
+    background-color: transparent;
+    
+    
+}
+#h41{
+    position: relative;
+    /* color: red; */
+    top: -25%;
+    left: 18%;
+}
+b{
+  position: absolute;
+  color: black;
+}
+#h42{
+    position: relative;
+    color: #856767ef;
+    top: -20%;
+    left: 18%;
+}
+#right6{
+    position: absolute;
+    font-size: 30px;
+    top: 30%;
+    left: 5%;
+}
+#strt2{
+    position: relative;
+    width: 2%;
+    height: 3%;
+    background-color: rgb(252, 251, 251);
+    left: 5.5%;
+    top: -22%;
+    border: 3px solid black;
+}
+#strt1{
+    position: absolute;
+    width: 3px;
+    height: 5%;
+    background-color: black;
+    top: 20%;
+    left: 6.5%;
+}
+#strt3{
+    position: absolute;
+    width: 6%;
+    height: 12%;
+    background-color: rgb(253, 252, 252);
+    left: 62%;
+    top: 24%;
+}
+#strt3 h6{
+    position: relative;
+    font-size: 40px;
+    top: -10px;
+    left: 28px;
+}
+#strt3 h2{
+    position: relative;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: -10px;
+    left: 12px;
+}
+#strt3 h5{
+    position: relative;
+    font-size: 40px;
+    top: -35px;
+    left: 28px;
+}
+#strt3 h3{
+    position: relative;
+    font-size: 40px;
+    top: -65px;
+    left: 28px;
+}
+
+#strt3::after{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 85%;
+    background-color: rgb(14, 7, 7);
+    left: 105%;
+    top: 24%;
+}
+#strt4{
+    position: relative;
+    width: 5px;
+    height: 10%;
+    background-color: black;
+    left: 61.3%;
+    top: -235px;
+}
+#strt5{
+    position: relative;
+    width: 7%;
+    height: 5px;
+    background-color: black;
+    top: -239px;
+    left: 61.5%;
+}
+#strt6{
+    position: absolute;
+    width: 3px;
+    height: 4%;
+    background-color: rgb(0, 255, 247);
+    left: 64.6%;
+    top: 21.5%;
+}
+#pp{
+    position: absolute;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 73%;
+    top: 28%;
+}
+#op{
+    position: absolute;
+    font-size: 15px;
+    left: 73%;
+    top: 31%;
+}
+#op::after{
+    position: absolute;
+    content: "";
+    background-color: rgb(3, 3, 3);
+    width: 20%;
+    height: 2px;
+    left: -0%;
+    top: 140%;
+}
+#strt7{
+    position: relative;
+    color: black;
+    background-color: aliceblue;
+    border: 3px solid black;
+    left: 30%;
+    top: -260px;
+}
+#strt7::after{
+    position: absolute;
+    content: "";
+    background-color: rgb(10, 9, 9);
+    width: 20%;
+    height: 2px;
+    left: 0%;
+    top: -25%;
+}
+#strt8{
+    position: absolute;
+    background-color: black;
+    width: 6%;
+    height: 2px;
+    left: 40%;
+    top: 39.5%;
+}
+#tt{
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 25%;
+    color: rgba(45, 40, 40, 0.381);
+
+}
+#circle4{
+    position: relative;
+    width: 12%;
+    height: 15%;
+    /* background-color: black; */
+    background-image: url(/mouse-cursor-icon---white-circle-button-png_139182-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 4px solid black;
+    left: 15%;
+    top: -50px;
+
+}
+#circle4::after{
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 3px;
+    top: -30%;
+    left: 15%;
+    background-color: rgb(4, 4, 4);
+}
+#circle5{
+    position: relative;
+    width: 12%;
+    height: 15%;
+    /* background-color: black; */
+    background-image: url(/download-removebg-preview\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    left: 45%;
+    top: -190px;
+    border-radius: 50%;
+    border: 4px solid black;
+
+}
+#circle5::after{
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 3px;
+    top: -30%;
+    left: 15%;
+    background-color: rgb(4, 4, 4);
+}
+#circle6{
+    position: relative;
+    width: 12%;
+    height: 15%;
+    /* background-color: black; */
+    background-image: url(/pngtree-shoes-icon-design-template-illustration-png-image_2515329-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    left: 75%;
+    top: -335px;
+    border-radius: 50%;
+    border: 4px solid black;
+
+}
+#circle6::after{
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 3px;
+    top: -30%;
+    left: 15%;
+    background-color: rgb(4, 4, 4);
+}
+
+#strt9{
+    width: 100%;
+    height: 100%;
+}
+#h13{
+    position: relative;
+    font-size: 20px;
+    color: black;
+    top: -33%;
+    left: 15%;
+}
+#h14{
+    position: relative;
+    font-size: 20px;
+    color: black;
+    top: -35%;
+    left: 46%;
+}
+#h15{
+    position: relative;
+    font-size: 20px;
+    color: black;
+    top: -38%;
+    left: 76%;
+}
+#img2{
+    width: 40%;
+    height: 20%;
+    position: relative;
+    /* background-color: red; */
+    background-image: ;
+    top: -165%;
+    left: 5%;
+}
+#img2 h1{
+    position: absolute;
+    left: 88%;
+    top: -7%;
+}
+#img3{
+    width: 40%;
+    height: 20%;
+    position: relative;
+    /* background-color: red; */
+    top: -143%;
+    left: 40%;
+}
+#img3 h1{
+    position: absolute;
+    left: 57%;
+    top: -7%;
+}
+#page3{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    top: 135%;
+}
+video{
+    position: relative;
+    width: 100%;
+}
+#right10{
+    width: -10%;
+    height: 22px;
+    position: absolute;
+    color: rgb(251, 248, 248);
+    top: 5%;
+    left: 95%;
+    font-size: 40px;
+    border: 1px solid blue;
+    background-color: #2b4cdb;
+}
+#left10{
+    width: -10%;
+    height: 22px;
+    position: absolute;
+    color: rgb(238, 236, 236);
+    top: 5%;
+    left: 91%;
+    font-size: 40px;
+    border: 1px solid rgb(3, 3, 240);
+    background-color: #2b4cdb;
+}
+#page3 h1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #f3eeee;
+}
+#page3 h2{
+    position: absolute;
+    font-size: 30px;
+    top: 20.3%;
+    left: 13.9%;
+    color: blue
+}
+#page3 img{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: -115%;
+    left: 10%;
+}
+#page3 h3{
+    position: absolute;
+    color: blue;
+    font-size: 40px;
+    top: 60%;
+    left: 10%;
+}
+#page3 h4{
+    position: absolute;
+    color: white;
+    top: 85%;
+    left: 10%;
+}
+#strt17{
+    width: 60%;
+    height: 40%;
+    /* background-color: red; */
+    top: -120%;
+    left: 60%;
+    font-size: 10px;
+    font-weight: 100;
+    position: relative;
+}
+#play{
+    position: relative;
+    top: -130%;
+    left: 50%;
+    font-size: 80px;
+}
+#strt18{
+    position: relative;
+    width: 15%;
+    height: 10%;
+    /* background-color: red; */
+    top: -75%;
+    left: 90%;
+}
+#strt18 h3{
+    position: relative;
+    font-size: 20px;
+    top: -20%;
+}
+#page4{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 180%;
+}
+#page4 i{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 30px;
+}
+#page4 h1{
+    position: absolute;
+    top: 52%;
+    left: 5%;
+    color: black;
+    /* background-color: #2b4cdb; */
+    border: 3px solid black;
+}
+#strt19{
+    position: relative;
+    width: 4px;
+    height: 8%;
+    background-color: black;
+    top: 43%;
+    left: 6%;
+}
+#page4 img{
+    position: relative;
+    top: 23%;
+    left: 70%;
+    width: 30%;
+    height: 55%;
+}
+#strt20{
+    position: relative;
+    width: 30%;
+    height: 10%;
+    /* background-color: #2b4cdb; */
+    top: -60%;
+    left: 10%;
+}
+#strt20 img{
+    position:absolute;
+}
+#strt20 h1{
+    position: absolute;
+    left: 101%;
+    top: 7.5%;
+    border: none;
+}
+#strt21{
+    position: relative;
+    width: 25%;
+    height: 40%;
+    background-color: #f3f3f6;
+    left: 51%;
+    top: -35%;
+}
+#strt21 h1{
+     position: absolute;
+     color: black;
+     font-size: 22px;
+     font-weight: 900;
+     border: none;
+     top: 10%;
+     left: 10%;
+}
+#strt21 i{
+    position: relative;
+    top: 30%;
+    left: 45%;
+    font-size: 20px;
+}
+#strt21:hover{
+    width: 30%;
+    height: 45%;
+}
+#nav{
+    width: 100%;
+    position: relative;
+    top: 21%;
+    left: 8%;
+}
+#nav i{
+    position: absolute;
+    font-size: 20px;
+}
+#nav1{
+    width: 100%;
+    position: relative;
+    top: 21%;
+    left: 16%;
+}
+#nav1 i{
+    position: absolute;
+    font-size: 20px;
+}
+#nav2{
+    width: 100%;
+    position: relative;
+    top: 21%;
+    left: 23%;
+}
+#nav2 i{
+    position: absolute;
+    font-size: 20px;
+}
+#nav3{
+    width: 100%;
+    position: relative;
+    top: 21%;
+    left: 70%;
+}
+#nav3 h1{
+    position: absolute;
+    font-size: 130%;
+}
+#strt21 h2{
+    position: absolute;
+    color: black;
+    left: 35%;
+    top: 45%;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#strt21 h3{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 900;
+    top: 60%;
+    left: 50%;
+}
+#nav4{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    /* background-color: blue; */
+    left: -50%;
+    top: -30%;
+}
+#nav4 img{
+    position: relative;
+    top: 80%;
+    
+}
+#strt22{
+    position: relative;
+    width: 45%;
+    height: 3px;
+    background-color: black;
+    top: -38%;
+    left: 25%;
+}
+#circle8{
+    position: relative;
+    width: 2%;
+    height: 4%;
+    background-color: green;
+    top: -44%;
+    left: 30%;
+    border-radius: 50%;
+}
+#circle9{
+    position: relative;
+    width: 2%;
+    height: 4%;
+    background-color: rgb(128, 47, 0);
+    top: -48%;
+    left: 33%;
+    border-radius: 50%;
+}
+#circle10{
+    position: relative;
+    width: 2%;
+    height: 4%;
+    background-color: rgb(128, 0, 90);
+    top: -52%;
+    left: 36%;
+    border-radius: 50%;
+}
+#circle11{
+    position: relative;
+    width: 2%;
+    height: 4%;
+    background-color: rgb(70, 6, 245);
+    top: -56%;
+    left: 39%;
+    border-radius: 50%;
+}
+#circle12{
+    position: relative;
+    width: 2%;
+    height: 4%;
+    background-color: rgb(211, 248, 4);
+    top: -60%;
+    left: 42%;
+    border-radius: 50%;
+}
+#page4 h4{
+    position: absolute;
+    color: black;
+    top: 70%;
+    left: 12%;
+    font-size: 25px;
+    font-weight: normal;
+}
+#page4 button{
+    position: relative;
+    width: 15%;
+    height: 5%;
+    top: -85%;
+    left: 26%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+#page4 button:hover{
+    background-color: rgb(6, 192, 253);
+}
+#page4 button::after{
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: black;
+    top: -25%;
+}
+#strt23{
+    position: relative;
+    width: 6%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: -84.8%;
+    left: 35%;
+}
+#strt24{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    /* background-color: yellow; */
+    top: -96%;
+    left: 20%;
+}
+#strt25{
+    position: relative;
+    width: 30%;
+    height: 12%;
+    /* background-color: green; */
+    top: -65%;
+    left: 38%;
+}
+#strt25 h1{
+    position: absolute;
+    left: 65%;
+    top: 16%;
+    border: none;
+}
+#page5{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    top: 180%;
+}
+#strt26{
+    position: relative;
+    width: 6%;
+    height: 20%;
+    background-color: rgb(242, 240, 240);
+    left: 45%;
+    top: -12%;
+}
+#strt26::after{
+    position: absolute;
+    content: "";
+    width: 130%;
+    height: 3px;
+    background-color: rgb(7, 7, 7);
+    top: -5%;
+    left: -15%;
+}
+#strt26 i{
+    position: absolute;
+    color: rgb(6, 6, 6);
+    font-size: 50px;
+    left: 16%;
+}
+#strt27{
+    position: relative;
+    width: 4px;
+    height: 12%;
+    background-color: rgb(13, 13, 13);
+    left: 44.1%;
+    top: -33%;
+}
+#strt28{
+    position: relative;
+    width: 4px;
+    height: 12%;
+    background-color: rgb(8, 8, 8);
+    left: 51.6%;
+    top: -45%;
+}
+#strt29{
+    position: relative;
+    width: 2px;
+    height: 12%;
+    background-color: rgb(5, 172, 249);
+    left: 48.1%;
+    top: -43%;
+}
+#page5 h1{
+    position: absolute;
+    color: white;
+    left: 35%;
+    top: 25%;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page5 h2{
+    position: absolute;
+    color: rgb(64, 8, 249);
+    left: 48%;
+    top: 25%;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page5 h3{
+    position: absolute;
+    color: white;
+    left: 64%;
+    top: 25%;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page5 button{
+    position: absolute;
+    color: white;
+    left: 42%;
+    top: 44%;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid rgb(53, 4, 249);
+    padding: 5px 60px;
+    background-color: black;
+}
+#page5 button:hover{
+    background-color: rgb(8, 153, 244);
+}
+#page5 button::after{
+    position: absolute;
+    content: "";
+    width: 105%;
+    height: 3px;
+    background-color: rgb(252, 247, 247);
+    top: -30%;
+    left: -2.5%;
+}
+#strt30{
+    position: relative;
+    width: 6%;
+    height: 3px;
+    background-color: #fff;
+    left: 47%;
+    top: -4%;
+}
+#page5 h4{
+    position: relative;
+    color: white;
+    left: 38%;
+}
+#circle20{
+    position: absolute;
+    /* background-color: red; */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    /* border-top: 5% solid rgb(9, 10, 10); */
+    border-left: 5px solid rgb(14, 15, 14);
+    top: -415%;
+    left: 13%;
+}
+#circle21{
+    position: absolute;
+    /* background-color: red; */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    /* border-top: 5% solid rgb(9, 10, 10); */
+    border-left: 5px solid rgb(14, 15, 14);
+    top: -415%;
+    left: 43%;
+}
+#circle22{
+    position: absolute;
+    /* background-color: red; */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    /* border-top: 5% solid rgb(9, 10, 10); */
+    border-left: 5px solid rgb(14, 15, 14);
+    top: -415%;
+    left: 73%;
+}
